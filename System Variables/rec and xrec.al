@@ -1,4 +1,7 @@
 //Rec & xRec
+// Rec -> It  will store the current record
+// xRec -> It will store the previous record
+
 //a=5; a++ Rec Xrec
 //address 23 Rec, 24 Rec=24, Xrec=23
 pageextension 50102 recxrec extends "Customer Card"
@@ -26,3 +29,4 @@ pageextension 50102 recxrec extends "Customer Card"
     var
         myInt: Integer;
 }
+
